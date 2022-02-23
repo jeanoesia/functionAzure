@@ -50,7 +50,7 @@ public class HttpTriggerFunction {
         public void insertDataSQL_Azure(String name){
               final Logger LOGGER =
                     Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
-                    String connectionString = "jdbc:sqlserver://test55-sql-server.database.windows.net:1433;database=test55;user=usertest;password=admin01@;encrypt=true;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+                    String connectionString = "jdbc:sqlserver://test55-sql-server.database.windows.net:1433;database=functionAzure;user=usertest;password=admin01@;encrypt=true;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
                     try {
                         Connection conn = DriverManager.getConnection(connectionString);
                         Statement statement = conn.createStatement();
