@@ -13,9 +13,8 @@ import java.util.logging.Level;
 import java.util.Optional;
 import java.sql.*;
 
-/**
- * Azure Functions with HTTP Trigger.
- */
+ // Azure Functions with HTTP Trigger.
+
 public class HttpTriggerFunction {
 
     /**
